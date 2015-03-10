@@ -19,7 +19,7 @@ public class GesturesActivity extends Activity implements OnGesturePerformedList
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-
+// hey it's me
         mLibrary = GestureLibraries.fromRawResource(this, R.raw.spells);
         if (!mLibrary.load()) {
         	finish();
